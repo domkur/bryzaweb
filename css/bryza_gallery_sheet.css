@@ -1,0 +1,148 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+body{
+	position: relative;
+	background-color: black;
+	font-family: 'Abril Fatface', cursive;
+}
+
+nav{
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+ul li{
+	display: inline-block;
+}
+
+.bg-color-black{
+	background-color: black;
+}
+
+.nav-links{
+	text-decoration: none;
+	border: solid 2px white;
+	padding: 5px;
+	color: white;
+}
+
+.nav-links:hover{
+	background-color: white;
+	color: black;
+}
+
+.contener-width{
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.bg-color-image{
+	background: url("bryza_wallpaper.jpg") no-repeat center;
+	height: 520px;
+	position: relative;
+	/*background-image: url(images/1.jpg)*/
+}
+
+.span{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	position: absolute;
+	top: 75%;
+	left: 5%;
+	font-size: 30px;
+}
+
+.bg-color-white{
+	background-color: white;
+}
+
+.flex{
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ico-field{
+	width: 50px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.fa-youtube{
+	color: #F2162C;
+	font-size: 40px;
+}
+.fa-youtube:hover{
+	color: #E1051B;
+	font-size: 45px;
+}
+
+.fa-facebook{
+	color: #1E64CC;
+	font-size: 40px;
+}
+
+.fa-facebook:hover{
+	color: #0D54BB;
+	font-size: 45px;
+}
+
+.fa-twitter{
+	color: #4487EB;
+	font-size: 40px;
+}
+.fa-twitter:hover{
+	color: #3376DA;
+	font-size: 45px;
+}
+
+.social-links{
+	text-decoration: none;
+}
+
+.article{
+	background-color: white;
+	margin: 5px;
+	display: inline-block;
+	width: 25%;
+	text-align: justify;
+}
+
+.gallery{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 5px;
+}
+
+.gallery img{
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.05);
+}
+
+footer{
+	height: 80px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
